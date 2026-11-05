@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded',()=>{const b=document.querySelector('.join');if(!b)return;b.addEventListener('pointerdown',()=>b.classList.add('pressed'));['pointerup','pointercancel','pointerleave'].forEach(e=>b.addEventListener(e,()=>b.classList.remove('pressed')));});
